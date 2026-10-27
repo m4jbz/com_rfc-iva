@@ -1,0 +1,4 @@
+C:\Users\marco\Dev\pracitca_com\ClienteComSat\bin\Debug\ClienteComSat.exe
+C:\Users\marco\Dev\pracitca_com\ClienteComSat\bin\Debug\ClienteComSat.pdb
+C:\Users\marco\Dev\pracitca_com\ClienteComSat\obj\Debug\ClienteComSat.exe
+C:\Users\marco\Dev\pracitca_com\ClienteComSat\obj\Debug\ClienteComSat.pdb

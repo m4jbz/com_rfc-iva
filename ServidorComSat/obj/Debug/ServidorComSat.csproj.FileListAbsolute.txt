@@ -1,0 +1,4 @@
+C:\Users\marco\Dev\pracitca_com\ServidorComSat\bin\Debug\ServidorComSat.dll
+C:\Users\marco\Dev\pracitca_com\ServidorComSat\bin\Debug\ServidorComSat.pdb
+C:\Users\marco\Dev\pracitca_com\ServidorComSat\obj\Debug\ServidorComSat.dll
+C:\Users\marco\Dev\pracitca_com\ServidorComSat\obj\Debug\ServidorComSat.pdb
