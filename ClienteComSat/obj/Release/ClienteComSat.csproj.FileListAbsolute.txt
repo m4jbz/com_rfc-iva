@@ -4,3 +4,4 @@ C:\Users\marco\Dev\pracitca_com\ClienteComSat\obj\Release\ClienteComSat.exe
 C:\Users\marco\Dev\pracitca_com\ClienteComSat\obj\Release\ClienteComSat.pdb
 C:\Users\marco\AppData\Local\Temp\claude\C--Users-marco-Dev-pracitca-com\aa9a9ac6-cdc3-4b50-a613-3dc66698b243\scratchpad\build\ClienteComSat.exe
 C:\Users\marco\AppData\Local\Temp\claude\C--Users-marco-Dev-pracitca-com\aa9a9ac6-cdc3-4b50-a613-3dc66698b243\scratchpad\build\ClienteComSat.pdb
+C:\Users\marco\Dev\pracitca_com\ClienteComSat\obj\Release\ClienteComSat.csproj.CoreCompileInputs.cache

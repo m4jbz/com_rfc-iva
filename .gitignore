@@ -1,2 +1,20 @@
 .vs/
 EXPLICACION_COM.md
+
+# Salida de compilación
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.tlb
+*.cache
+
+# Visual Studio
+*.user
+*.suo
+*.userprefs
+*.vsix
+.vscode/
+TestResults/
+*.log

@@ -19,8 +19,8 @@ ServidorComSat/                 Biblioteca de clases (DLL) – servidor COM
 ClienteComSat/                  Aplicación de consola – cliente
   Program.cs                    Módulos Early y Late Binding
   ServidorComSatInterop.cs      Llamadas por vtable (Early Binding)
-registrar.bat                   Registra el componente (regasm)
-desregistrar.bat                Elimina el registro
+registrar.bat                   Instala la DLL en Program Files\ComSat y la registra (regasm)
+desregistrar.bat                Elimina el registro y la instalación
 rutas_regedit.txt               Rutas de regedit para la inspección
 ```
 
@@ -70,20 +70,21 @@ ClienteComSat\bin\Release\ClienteComSat.exe
    ```
    registrar.bat
    ```
-   Equivale a `regasm ServidorComSat.dll /codebase /tlb` con el regasm de 64 bits. Admite `Debug` como argumento (`registrar.bat Debug`); por defecto usa `Release`.
+   Copia `ServidorComSat.dll` a `C:\Program Files\ComSat` y ejecuta ahí `regasm ServidorComSat.dll /codebase /tlb` con el regasm de 64 bits. Admite `Debug` como argumento (`registrar.bat Debug`); por defecto usa `Release`.
 3. Ejecutar el cliente:
    ```
    ClienteComSat\bin\Release\ClienteComSat.exe
    ```
    Muestra los resultados de `ValidarRFC` y `CalcularIva` primero con Early Binding y luego con Late Binding.
 4. Inspeccionar el registro con `regedit.exe` usando las rutas de `rutas_regedit.txt`.
-5. Para eliminar el registro:
+5. Para eliminar el registro y la carpeta de instalación:
    ```
    desregistrar.bat
    ```
 
 ## Notas
 
-- Si se mueve o recompila la DLL en otra carpeta, ejecutar de nuevo `registrar.bat`.
-- Cerrar `ClienteComSat.exe` antes de recompilar; mientras está abierto bloquea `ServidorComSat.dll`.
+- El componente registrado usa la copia de `C:\Program Files\ComSat`; se puede borrar o recompilar `ServidorComSat\bin` sin afectarlo.
+- Si se cambia el código del servidor, compilar y ejecutar de nuevo `registrar.bat` para actualizar la copia instalada.
+- Cerrar `ClienteComSat.exe` antes de ejecutar `registrar.bat` o `desregistrar.bat`; mientras está abierto bloquea la DLL instalada.
 - Si se cambian los GUID, actualizarlos también en `ClienteComSat/ServidorComSatInterop.cs`, y ejecutar `desregistrar.bat` antes de registrar la nueva versión.
