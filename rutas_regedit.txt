@@ -1,0 +1,5 @@
+Computer\HKEY_CLASSES_ROOT\ServidorComSat.ValidadorSAT\CLSID
+Computer\HKEY_CLASSES_ROOT\CLSID\{796143f6-dba5-42cf-8230-f17df181b3e0}\InprocServer32
+Computer\HKEY_CLASSES_ROOT\CLSID\{796143f6-dba5-42cf-8230-f17df181b3e0}\ProgId
+Computer\HKEY_CLASSES_ROOT\Interface\{377c5c35-b4ca-4db6-a094-472be28b7079}\TypeLib
+Computer\HKEY_CLASSES_ROOT\TypeLib\{c5ad25b5-7f0f-4d87-a229-2f4b64fba08d}\1.0\0\win64
